@@ -13,3 +13,7 @@ Sigma-10's header font. Licensed under [SIL Open Font License 1.1](https://githu
 ## [IBM Plex](https://github.com/IBM/plex)
 
 Sigma-10's header font. Licensed under [SIL Open Font License 1.1](https://github.com/IBM/plex/blob/master/LICENSE.txt).
+
+## RedactRect
+
+Provides a fallback redaction character (FULL BLOCK, U+2588) that matches the width of Inter. Licensed under SIL Open Font License 1.1, copyright The EN SCP Wiki.

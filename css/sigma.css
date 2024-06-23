@@ -57,6 +57,16 @@
 		format('woff2');
 }
 
+@font-face {
+	font-family: RedactRect;
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url('https://scp-jp.github.io/sigma/fonts/RedactRect.woff2')
+		format('woff2');
+	unicode-range: U+2588;
+}
+
 /* COMMON */
 #content-wrap {
 	position: relative;
@@ -162,7 +172,7 @@ body {
 	font-size: 0.95em;
 	font-weight: 450;
 	color: #333;
-	font-family: Inter, 'IBM Plex Sans JP', sans-serif;
+	font-family: Inter, RedactRect, 'IBM Plex Sans JP', sans-serif;
 	font-feature-settings: 'case', 'ss01', 'ss04';
 }
 
@@ -1374,6 +1384,20 @@ div#u-adult-warning > .error-block {
 	margin: unset;
 	border: unset;
 	margin-bottom: 1em;
+}
+
+/*
+	Fix for adblocker accidentally blocking file upload pane from displaying
+	EasyList update 2024.05.10 added AC_OETags.js to their blocklist
+
+	Wikidot uses AC_OETags.js to switch between the regular Ajax and the (now-defunct) Flash upload panes
+	Both have inline 'display: none', which is controlled by activation of AC_OETags.js
+
+	Blockers like uBlock Origin uses EasyList, resulting in accidental breakge on the wiki
+*/
+
+#file-upload-box-ajax {
+	display: block !important;
 }
 
 /* Colmod */
