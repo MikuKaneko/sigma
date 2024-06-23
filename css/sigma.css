@@ -15,28 +15,28 @@
 
 @charset "utf-8";
 
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
 /* Don't remove Bauhaus yet, still onsite dependencies to resolve */
-@import url('https://scp-jp.github.io/files/util/common/media/component/theme/font-bauhaus.css');
+@import url("https://scp-jp.github.io/files/util/common/media/component/theme/font-bauhaus.css");
 
 /* FONT-FACE */
-@import url('https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-ExtraLight.css');
-@import url('https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-Light.css');
-@import url('https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-Thin.css');
-@import url('https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-Medium.css');
-@import url('https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-Regular.css');
-@import url('https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-Text.css');
-@import url('https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-SemiBold.css');
-@import url('https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-Bold.css');
+@import url("https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-ExtraLight.css");
+@import url("https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-Light.css");
+@import url("https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-Thin.css");
+@import url("https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-Medium.css");
+@import url("https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-Regular.css");
+@import url("https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-Text.css");
+@import url("https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-SemiBold.css");
+@import url("https://scp-jp.github.io/sigma/fonts/IBMPlexSansJP/IBMPlexSansJP-Bold.css");
 
 @font-face {
 	font-family: Inter;
 	font-style: normal;
 	font-weight: 100 900;
 	font-display: swap;
-	src: url('https://scp-jp.github.io/sigma/fonts/Inter-roman.var.woff2?v=3.19')
-		format('woff2');
+	src: url("https://scp-jp.github.io/sigma/fonts/Inter-roman.var.woff2?v=3.19")
+		format("woff2");
 }
 
 @font-face {
@@ -44,17 +44,17 @@
 	font-style: italic;
 	font-weight: 100 900;
 	font-display: swap;
-	src: url('https://scp-jp.github.io/sigma/fonts/Inter-italic.var.woff2?v=3.19')
-		format('woff2');
+	src: url("https://scp-jp.github.io/sigma/fonts/Inter-italic.var.woff2?v=3.19")
+		format("woff2");
 }
 
 @font-face {
-	font-family: 'Sans Normalcy';
+	font-family: "Sans Normalcy";
 	font-style: normal;
 	font-weight: 700;
 	font-display: swap;
-	src: url('https://scp-jp.github.io/sigma/fonts/Sans-Normalcy.woff2')
-		format('woff2');
+	src: url("https://scp-jp.github.io/sigma/fonts/Sans-Normalcy.woff2")
+		format("woff2");
 }
 
 @font-face {
@@ -62,8 +62,8 @@
 	font-style: normal;
 	font-weight: 400;
 	font-display: swap;
-	src: url('https://scp-jp.github.io/sigma/fonts/RedactRect.woff2')
-		format('woff2');
+	src: url("https://scp-jp.github.io/sigma/fonts/RedactRect.woff2")
+		format("woff2");
 	unicode-range: U+2588;
 }
 
@@ -172,8 +172,8 @@ body {
 	font-size: 0.95em;
 	font-weight: 450;
 	color: #333;
-	font-family: Inter, RedactRect, 'IBM Plex Sans JP', sans-serif;
-	font-feature-settings: 'case', 'ss01', 'ss04';
+	font-family: Inter, RedactRect, "IBM Plex Sans JP", sans-serif;
+	font-feature-settings: "case", "ss01", "ss04";
 }
 
 input,
@@ -187,7 +187,7 @@ textarea {
 }
 
 div#container-wrap {
-	background: url('https://scp-jp.github.io/sigma/images/body_bg.svg') top
+	background: url("https://scp-jp.github.io/sigma/images/body_bg.svg") top
 		left repeat-x;
 }
 
@@ -203,7 +203,7 @@ sup {
 	position: relative;
 	z-index: 10;
 	padding-bottom: 22px; /* FOR MENU */
-	background: url('https://scp-jp.github.io/sigma/images/header-logo.svg')
+	background: url("https://scp-jp.github.io/sigma/images/header-logo.svg")
 		10px 40px no-repeat;
 	background-size: 100px;
 	background-position: 10px 64%;
@@ -243,7 +243,7 @@ sup {
 	display: none;
 }
 
-#search-top-box-form input[type='submit'] {
+#search-top-box-form input[type="submit"] {
 	border: solid 1px #999;
 	border-radius: 5px;
 	padding: 2px 5px;
@@ -256,8 +256,8 @@ sup {
 	cursor: pointer;
 }
 
-#search-top-box-form input[type='submit']:hover,
-#search-top-box-form input[type='submit']:focus {
+#search-top-box-form input[type="submit"]:hover,
+#search-top-box-form input[type="submit"]:focus {
 	border: solid 1px #fff;
 	color: #fff;
 	text-shadow: 0 0 1px rgba(255, 255, 255, 0.25);
@@ -315,7 +315,7 @@ sup {
 	max-height: 0;
 	color: #eee;
 	background: transparent;
-	font-family: 'Sans Normalcy', Arial, 'IBM Plex Sans JP', sans-serif;
+	font-family: "Sans Normalcy", Arial, "IBM Plex Sans JP", sans-serif;
 	font-size: 1.5em;
 	text-decoration: none;
 	text-shadow: 3px 3px 5px #000;
@@ -324,12 +324,12 @@ sup {
 
 /*  ヘッダータイトルのアルファベットのずれを修正 */
 #header h1 a::before {
-	content: 'SCP';
+	content: "SCP";
 	font-size: 1.02em;
 }
 
 #header h1 a::after {
-	content: '財団';
+	content: "財団";
 	vertical-align: middle;
 }
 
@@ -642,7 +642,7 @@ sup {
 }
 
 /* ACTUALLY HIDE HIDDEN TAGS */
-#main-content .page-tags a[href^='/system:page-tags/tag/_'] {
+#main-content .page-tags a[href^="/system:page-tags/tag/_"] {
 	display: none;
 }
 
@@ -662,7 +662,7 @@ sup {
 .yui-navset .yui-nav a,
 .yui-navset .yui-navset-top .yui-nav a {
 	background-color: #d8d8d8;
-	background-image: url('https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png');
+	background-image: url("https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png");
 }
 
 .yui-navset .yui-nav .selected a,
@@ -670,7 +670,7 @@ sup {
 .yui-navset .yui-nav .selected a:hover {
 	/* no hover effect for selected */
 	background: #700
-		url('https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png')
+		url("https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png")
 		repeat-x left -1400px; /* selected tab background */
 
 	color: #fff;
@@ -679,7 +679,7 @@ sup {
 .yui-navset .yui-nav a:hover,
 .yui-navset .yui-nav a:focus {
 	background: #d88
-		url('https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png')
+		url("https://d3g0gp89917ko0.cloudfront.net/v--3b8418686296/common--theme/shiny/images/yuitabs.png")
 		repeat-x left -1300px;
 	text-decoration: none;
 }
@@ -793,7 +793,7 @@ div.sexy-box div.image-container img {
 .content-panel .panel-body {
 	padding: 5px 10px;
 	background: #fff9f0
-		url('https://scp-jp.github.io/files/util/common/media/component/theme/panel-bg-gradient-reverse.png')
+		url("https://scp-jp.github.io/files/util/common/media/component/theme/panel-bg-gradient-reverse.png")
 		bottom repeat-x;
 }
 
@@ -1072,7 +1072,7 @@ rt {
 }
 
 .tags::before {
-	content: '';
+	content: "";
 	padding: 0 1px 3px;
 	float: left;
 	position: relative;
@@ -1086,7 +1086,7 @@ rt {
 }
 
 .tags::after {
-	content: '';
+	content: "";
 	position: relative;
 	top: 4.5px;
 	left: -8px;
@@ -1457,11 +1457,11 @@ li.folded > .colmod-content {
 	}
 }
 
-[class|='colmod-link'] div.foldable-list-container {
+[class|="colmod-link"] div.foldable-list-container {
 	display: inline;
 }
 
-[class|='colmod-link'] a {
+[class|="colmod-link"] a {
 	overflow-wrap: anywhere;
 }
 
@@ -1487,7 +1487,7 @@ li.folded > .colmod-content {
 
 .content-panel.scp ul li::before {
 	background: #333;
-	content: '';
+	content: "";
 	display: inline-block;
 	height: 5px;
 	margin: 0 10px 0 -15px;
@@ -1507,8 +1507,10 @@ li.folded > .colmod-content {
 	position: static;
 }
 
+/* stylelint-disable selector-class-pattern */
+
 /* _404, _template用CommonCSS */
-#page-content [class='wikisys--template-dialog'] {
+#page-content .wikisys--template-dialog {
 	width: 90%;
 	max-width: 32rem;
 	margin: 1.5rem auto;
@@ -1519,9 +1521,7 @@ li.folded > .colmod-content {
 	border: solid 1px #b7b7b7;
 }
 
-#page-content
-	[class='wikisys--template-dialog']
-	> [class='wikisys--template-dialog-header'] {
+#page-content .wikisys--template-dialog > .wikisys--template-dialog-header {
 	position: relative;
 	line-height: 1.5;
 	font-size: 1.3rem;
@@ -1530,9 +1530,9 @@ li.folded > .colmod-content {
 }
 
 #page-content
-	[class='wikisys--template-dialog']
-	> [class='wikisys--template-dialog-header']::before {
-	content: '';
+	.wikisys--template-dialog
+	> .wikisys--template-dialog-header::before {
+	content: "";
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -1543,27 +1543,23 @@ li.folded > .colmod-content {
 	background: #aaa;
 }
 
-#page-content
-	[class='wikisys--template-dialog']
-	> [class='wikisys--template-dialog-content'] {
+#page-content .wikisys--template-dialog > .wikisys--template-dialog-content {
 	line-height: 1.75;
 	margin: 1rem 0;
 }
 
-#page-content
-	[class='wikisys--template-dialog']
-	> [class='wikisys--template-dialog-footer'] {
+#page-content .wikisys--template-dialog > .wikisys--template-dialog-footer {
 	font-size: 0.9rem;
 	margin-top: 1.5em;
 }
 
-#page-content
-	[class='wikisys--template-dialog']
-	> [class='wikisys--template-dialog-infoarea'] {
+#page-content .wikisys--template-dialog > .wikisys--template-dialog-infoarea {
 	margin-top: 1.5rem;
 }
 
-/* Show-Changes Highlights from SCP-CN */
+/* stylelint-enable */
+
+/* Show-Changes Highlights from SCP-CN  */
 .inline-diff ins:first-of-type::before,
 .inline-diff del:first-of-type::before,
 .inline-diff br + ins::before,
@@ -1573,7 +1569,7 @@ li.folded > .colmod-content {
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	content: '\f111';
+	content: "\f111";
 	position: absolute;
 	left: 1.5rem;
 }
@@ -1605,7 +1601,7 @@ li.folded > .colmod-content {
 }
 
 .forum-category-box .title a:empty::after {
-	content: '\3000';
+	content: "\3000";
 }
 
 /* vim: set noet: */
